@@ -32,6 +32,9 @@
 .margin-l-40{
      margin-left: 40px;
 }
+.margin-l-60{
+     margin-left: 60px;
+}
 /* .margin-l-100{
      margin-left: 100px;
 } */
@@ -176,6 +179,9 @@
 /* fonts === END === */
 /* Colors --- START --- */
 /* Main Color */
+.transparent-bc{
+  background: none;
+}
 .black-c{
      color:#323031;
 }

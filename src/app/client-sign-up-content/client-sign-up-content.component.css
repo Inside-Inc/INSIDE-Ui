@@ -45,6 +45,13 @@
      right:0;
      border-radius: 4px
 }
+.s-butt-skip{
+     width: 100px;
+     height: 40px;
+     position: absolute;
+     bottom: 20px;
+     border-radius: 4px
+}
 .s-butt-add{
      width: 260px;
      height: 40px;
