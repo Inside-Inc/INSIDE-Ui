@@ -112,6 +112,13 @@
      clear: both;
 }
 /* align === END === */
+/*  Decoration ---START--- */
+/* shadow */
+.shadow-s{
+     box-shadow: 1px 1px 4px rgba(112, 112, 112, 0.3);
+}
+/* view */
+/*  Decoration === END === */
 /* fonts --- START --- */
 /* Font Family */
 .arial{
@@ -133,15 +140,12 @@
 .p-fonts-size{
      font-size: 15px;
 }
+/*  Decoration */
 .a-no-underline{
      text-decoration: none;
 }
 .bOld{
      font-weight: bold;
-}
-/*  Decoration */
-.shadow-s{
-     box-shadow: 1px 1px 4px rgba(112, 112, 112, 0.3);
 }
 /* placeholder*/
  .placeholder::placeholder{
