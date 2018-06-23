@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { ClientSignUpHeaderComponent } from './client-sign-up/client-sign-up-header/client-sign-up-header.component';
 import { ClientSignUpContentComponent } from './client-sign-up-content/client-sign-up-content.component';
+import { SignInComponent } from './sign-in/sign-in.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     ClientSignUpHeaderComponent,
-    ClientSignUpContentComponent
+    ClientSignUpContentComponent,
+    SignInComponent
   ],
   imports: [
     BrowserModule
