@@ -2,6 +2,9 @@
 .margin-auto{
      margin: auto;
 }
+/* .margin-t-n30{
+  margin-top: -35px;
+} */
 .margin-10{
      margin:10px;
 }
@@ -29,6 +32,9 @@
 .margin-l-40{
      margin-left: 40px;
 }
+/* .margin-l-100{
+     margin-left: 100px;
+} */
 
 /*margin === END ==  */
 /*padding --- START ---  */

@@ -12,7 +12,11 @@
 .s-step-num{
      padding:20px 0;
 }
-/* ccolumn */
+/* .s-hr{
+  border: 1px solid #AFED99;
+  width: 145px;
+} */
+/* column */
 .s-column{
      width:260px;
      height: 300px;
@@ -23,6 +27,16 @@
      height: 40px;
      border-radius: 4px;
 }
+.s-num-input{
+  width:40px;
+  height: 40px;
+  border-radius: 4px;
+}
+.s-ph-num-input{
+  width:160px;
+  height: 40px;
+  border-radius: 4px;
+}
 .s-butt-next{
      width: 100px;
      height: 40px;
@@ -30,4 +44,12 @@
      bottom: 20px;
      right:0;
      border-radius: 4px
+}
+.s-butt-add{
+     width: 260px;
+     height: 40px;
+     border-radius: 4px;
+     background-image:url('../../assets/Icon/pipe-plus.png');
+     background-repeat: no-repeat;
+     background-position: 5% 50%;
 }
