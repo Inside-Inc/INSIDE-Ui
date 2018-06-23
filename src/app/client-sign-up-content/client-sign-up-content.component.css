@@ -1,29 +1,29 @@
 /* main contaner */
-.main-contaner{
+.s-main-contaner{
      width: 860px;
      height: 440px;
 }
 /* header */
-.step-icon{
+.s-step-icon{
      width:70px;
      height:70px;
      border-radius: 50%;
 }
-.step-num{
+.s-step-num{
      padding:20px 0;
 }
 /* ccolumn */
-.column{
+.s-column{
      width:260px;
      height: 300px;
      position: relative;
 }
-.sing-inputs{
+.s-sing-inputs{
      width:220px;
      height: 40px;
      border-radius: 4px;
 }
-.butt-next{
+.s-butt-next{
      width: 100px;
      height: 40px;
      position: absolute;

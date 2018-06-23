@@ -1,57 +1,57 @@
-.nav{
+.s-nav{
      height:40px;
 }
 /*  Holders */
-.holder-one{
+.s-holder-one{
      height: 30px;
      width: 413px;
      padding: 5px 0;
      display: inline-block;
 }
-.holder-user-fun{
+.s-holder-user-fun{
      display: inline-block;
      height: 20px;
      width: 180px;
      padding: 10px 0;
 }
-.holder-user-acc{
+.s-holder-user-acc{
      display: inline-block;
      height: 30px;
      width: 260px;
      padding: 5px 0;
 }
 /* Buttons & icons */
-.inside-logo{
+.s-inside-logo{
      margin: 5px 40px 5px 0;
      height:20px;
 }
-.search-bar{
+.s-search-bar{
      width: 260px;
      height:30px;
      border-radius: 4px 0 0 4px;
 }
-.search-button{
+.s-search-button{
      height:30px;
      width:30px;
      background-image: url("../../assets/Icon/search.png");
      background-position: center;
      background-repeat: no-repeat;
 }
-.nav-icons{
+.s-nav-icons{
      height: 20px;
      width: 20px;
 }
-.x{
+.s-x{
      display: inline-block;
 }
-.nav-sign-up{
+.s-nav-sign-up{
      height:30px;
      border-radius: 4px 0 0 4px ;
 }
-.nav-sign-up2{
+.s-nav-sign-up2{
      height:30px;
 }
-.nav-sign-in{
+.s-nav-sign-in{
      height:30px;
      border-radius: 0 4px 4px 0 ;
 }
