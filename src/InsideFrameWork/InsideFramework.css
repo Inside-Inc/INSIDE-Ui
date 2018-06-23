@@ -118,6 +118,14 @@
      box-shadow: 1px 1px 4px rgba(112, 112, 112, 0.3);
 }
 /* view */
+.hidden{
+
+}
+.hidden-test{
+  width:0;
+  height:0;
+  overflow: hidden;
+}
 /*  Decoration === END === */
 /* fonts --- START --- */
 /* Font Family */
@@ -140,7 +148,7 @@
 .p-fonts-size{
      font-size: 15px;
 }
-/*  Decoration */
+/*Font Decoration */
 .a-no-underline{
      text-decoration: none;
 }
