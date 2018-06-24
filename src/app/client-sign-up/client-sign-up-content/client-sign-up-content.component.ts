@@ -23,7 +23,8 @@ export class ClientSignUpContentComponent implements OnInit {
      var addRight = position + 880;
      stepsSlider.style.right= addRight+'px';
      var position = stepsSlider.setAttribute('rightPosition', addRight);
-     console.log(stepsSlider.x_pos);
+     //      stepsSlider.style.left = x_pos+'px';
+     // console.log(stepsSlider.x_pos);
       // console.log(this.stepsCounter);
       // var step = stepsArr[this.stepsCounter];
       // var next = stepsArr[this.stepsCounter+1];
