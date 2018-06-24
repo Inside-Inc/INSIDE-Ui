@@ -18,6 +18,6 @@ export class ClientSignUpContentComponent implements OnInit {
      var positionInt = Number(position);
      var addRight = positionInt + 880;
      stepsSlider.style.right= addRight+'px';
-     var position = stepsSlider.setAttribute('rightPosition', addRight);
+     stepsSlider.setAttribute('rightPosition', addRight);
  }
 }
