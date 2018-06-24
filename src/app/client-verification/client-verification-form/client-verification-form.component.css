@@ -1,6 +1,6 @@
 /* Body Color */
 .s-body-color{
-  background-color: rgba(60, 93, 84, 0.1);
+  background-color: rgba(170,246,144,0.1);
 }
 /* Header */
 .s-hr{
@@ -24,6 +24,12 @@
 }
 .s-step-num{
      padding:20px 0;
+}
+/* content */
+/* fixed image */
+.s-fixed-image{
+  width: 250px;
+  height: 250px;
 }
 /* column */
 .s-column{
