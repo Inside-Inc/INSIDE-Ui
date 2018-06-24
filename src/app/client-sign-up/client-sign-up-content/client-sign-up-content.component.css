@@ -64,6 +64,11 @@
      bottom: 20px;
      border-radius: 4px
 }
+.s-select{
+     width: 260px;
+     height: 40px;
+     border-radius: 4px;
+}
 .s-butt-add{
      width: 260px;
      height: 40px;

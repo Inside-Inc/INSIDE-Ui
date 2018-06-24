@@ -5,59 +5,60 @@
           </div>
           <p class='arial titles-fonts-size bOld black-c'>User ID</p>
      </header>
-     <section id='contentContaner'>
-          <section id='stepsSlider' class='tra-a-4' rightPosition=''>
-               <section id='step1' class='float-l'> <!-- step one  User ID-->
-                    <div class='s-column float-l'><!-- calumn-A -->
-                         <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='First Name' type='text'>
-                         <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Last Name' type='text'>
-                         <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='E-mail' type='text'>
-                         <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Password' type='password'>
-                         <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Re-Password' type='password'>
-                    </div>
-                    <div class='s-column float-l margin-r-40 margin-l-40'><!-- calumn-B -->
-                         <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Gender' type='text'>
-                         <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='DD/MM/YYYY' type='text'>
-                    </div>
-                    <div class='s-column float-l'><!-- calumn-C -->
-                         <button class='s-butt-next p-fonts-size outline-non border-non blue-bc white-c padding-r-20 padding-l-20 float-r shadow-s arial c-pointer' (click)='stepsSwitcher()'>Next</button>
-                    </div>
-                    <p class='clear-fix'></p>
-               </section>
-               <section id='step2' class=' float-l margin-l-20 margin-r-20'> <!-- step two 'User Cntact' -->
-                         <div class='s-column float-l'><!-- calumn-A -->
-                        <input class='s-num-input center margin-r-20 border-non gray-bc outline-non placeholder-s p-fonts-size shadow-s margin-b-20' placeholder='02' type='text'>
-                        <input class='s-ph-num-input border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Phone Number' type='text'>
-                        <button class='s-butt-add border-non green-bc white-c outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial'>Add Phone Number</button>
-                        <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Country' type='text'>
-                        <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='City' type='text'>
-                        <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='state' type='text'>
-                    </div>
-                    <div class='s-column float-l margin-r-40 margin-l-40'><!-- calumn-B -->
-                         <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Street' type='text'>
-                         <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Postal code' type='text'>
-                         <button class='s-butt-add border-non green-bc white-c outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial'>Add Another Address</button>
-                    </div>
-                    <div class='s-column float-l'>
-                         <button class='s-butt-next p-fonts-size outline-non border-non blue-bc white-c padding-r-20 padding-l-20 float-r shadow-s arial c-pointer' (click)='stepsSwitcher()'>Next</button>
-                    </div> <!-- calumn-C -->
-                    <p class='clear-fix'></p>
-               </section>
-               <section id='step3' class=''>     <!-- step three 'User Payment' -->
-                   <div class='s-column float-l'><!-- calumn-A -->
-                        <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Credit Card' type='text'>
-                        <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Card Number' type='text'>
-                        <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Security code' type='text'>
-                        <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Expiration month' type='text'>
-                        <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Expiration year' type='text'>
-                   </div>
-                   <div class='s-column float-l margin-r-40 margin-l-40'>
-                   </div> <!-- calumn-B -->
-                   <div class='s-column float-l'>
-                        <button class='s-butt-skip p-fonts-size outline-non border-non transparent-bc blue-c padding-r-20 padding-l-20 margin-l-60 arial c-pointer'>Skip</button>
-                        <button class='s-butt-next p-fonts-size outline-non border-non blue-bc white-c padding-r-20 padding-l-20 float-r shadow-s arial c-pointer'>Next</button>
-                   </div> <!-- calumn-C -->
-               </section>
-          </section>
+
+     <section> <!-- step one  User ID-->
+          <div class='s-column float-l'><!-- calumn-A -->
+               <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='First Name' type='text'>
+               <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Last Name' type='text'>
+               <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='E-mail' type='text'>
+               <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Password' type='password'>
+               <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Re-Password' type='password'>
+          </div>
+          <div class='s-column float-l margin-r-40 margin-l-40'><!-- calumn-B -->
+               <select name='gender' class='s-select border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial'>
+                  <option name='gender' value='0'>Gender</option>
+                  <option name='female' value='1'>Female</option>
+                  <option name='male' value='2'>Male</option>
+               </select>
+               <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='DD/MM/YYYY' type='text'>
+          </div>
+          <div class='s-column float-l'><!-- calumn-C -->
+               <button class='s-butt-next p-fonts-size outline-non border-non blue-bc white-c padding-r-20 padding-l-20 float-r shadow-s arial'>Next</button>
+          </div>
+          <p class='clear-fix'></p>
+     </section>
+     <section class='hidden-test'> <!-- step two 'User Cntact' -->
+               <div class='s-column float-l'><!-- calumn-A -->
+              <input class='s-num-input center margin-r-20 border-non gray-bc outline-non placeholder-s p-fonts-size shadow-s margin-b-20' placeholder='02' type='text'>
+              <input class='s-ph-num-input border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Phone Number' type='text'>
+              <button class='s-butt-add border-non green-bc white-c outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial'>Add Phone Number</button>
+              <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Country' type='text'>
+              <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='City' type='text'>
+              <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='state' type='text'>
+          </div>
+          <div class='s-column float-l margin-r-40 margin-l-40'><!-- calumn-B -->
+               <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Street' type='text'>
+               <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Postal code' type='text'>
+               <button class='s-butt-add border-non green-bc white-c outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial'>Add Another Address</button>
+          </div>
+          <div class='s-column float-l'>
+               <button class='s-butt-next p-fonts-size outline-non border-non blue-bc white-c padding-r-20 padding-l-20 float-r shadow-s arial'>Next</button>
+          </div> <!-- calumn-C -->
+          <p class='clear-fix'></p>
+     </section>
+     <section class='hidden-test'>     <!-- step three 'User Payment' -->
+         <div class='s-column float-l'><!-- calumn-A -->
+              <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Credit Card' type='text'>
+              <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Card Number' type='text'>
+              <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Security code' type='text'>
+              <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Expiration month' type='text'>
+              <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Expiration year' type='text'>
+         </div>
+         <div class='s-column float-l margin-r-40 margin-l-40'>
+         </div> <!-- calumn-B -->
+         <div class='s-column float-l'>
+              <button class='s-butt-skip p-fonts-size outline-non border-non transparent-bc blue-c padding-r-20 padding-l-20 margin-l-60 arial'>Skip</button>
+              <button class='s-butt-next p-fonts-size outline-non border-non blue-bc white-c padding-r-20 padding-l-20 float-r shadow-s arial'>Next</button>
+         </div> <!-- calumn-C -->
      </section>
 </section>
