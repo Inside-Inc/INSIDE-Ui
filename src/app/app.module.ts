@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { ClientSignUpHeaderComponent } from './client-sign-up/client-sign-up-header/client-sign-up-header.component';
 import { ClientSignUpContentComponent } from './client-sign-up/client-sign-up-content/client-sign-up-content.component';
+import { ClientVerificationFormComponent } from './client-verification/client-verification-form/client-verification-form.component';
+import { ClientVerificationAcceptedComponent } from './client-verification/client-verification-accepted/client-verification-accepted.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     ClientSignUpHeaderComponent,
     ClientSignUpContentComponent,
-    routingComponents
+    routingComponents,
+    ClientVerificationFormComponent,
+    ClientVerificationAcceptedComponent
   ],
   imports: [
     BrowserModule,
