@@ -6,16 +6,13 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { ClientSignUpHeaderComponent } from './client-sign-up/client-sign-up-header/client-sign-up-header.component';
 import { ClientSignUpContentComponent } from './client-sign-up/client-sign-up-content/client-sign-up-content.component';
-import { ClientSignInComponent } from './sign-in/client-sign-in/client-sign-in.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     ClientSignUpHeaderComponent,
     ClientSignUpContentComponent,
-    routingComponents,
-    ClientSignInComponent
-    // ClientSignUpComponent
+    routingComponents
   ],
   imports: [
     BrowserModule,
