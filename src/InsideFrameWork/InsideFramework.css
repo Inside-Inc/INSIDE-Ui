@@ -98,6 +98,11 @@
      outline: none;
 }
 /*border === END ===  */
+/* transitions --- START --- */
+.tra-a-1{
+     -webkit-transition: all 0.1s ease-in-out
+}
+/*transitions === END ===  */
 /* align --- START --- */
 .center{
      text-align:center;
@@ -134,6 +139,10 @@
   width:0;
   height:0;
   overflow: hidden;
+}
+/* mouse */
+.c-pointer{
+     cursor: pointer;
 }
 /*  Decoration === END === */
 /* fonts --- START --- */
