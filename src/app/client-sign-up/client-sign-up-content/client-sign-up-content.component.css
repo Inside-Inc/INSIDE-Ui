@@ -56,7 +56,7 @@
      width: 260px;
      height: 40px;
      border-radius: 4px;
-     background-image:url('../../assets/Icon/pipe-plus.png');
+     background-image:url('../../../assets/Icon/pipe-plus.png');
      background-repeat: no-repeat;
      background-position: 5% 50%;
 }
