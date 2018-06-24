@@ -1,4 +1,16 @@
 /* main contaner */
+#contentContaner{
+     width: 860px;
+     overflow: hidden;
+}
+#stepsSlider{
+     position: relative;
+     right:0px;
+     width: 2620px;
+     transform: translate3d(0, 0, 0);
+}
+.s-step-sec{
+}
 .s-main-contaner{
      width: 860px;
      height: 440px;
