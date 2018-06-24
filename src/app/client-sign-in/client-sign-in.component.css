@@ -1,0 +1,17 @@
+/* Header */
+.s-hr{
+     width:140px;
+     border: 1px solid #EEE;
+}
+/* Content */
+.s-lock{
+  width:100px;
+  height:100px;
+  display: block;
+}
+.s-sing-inputs{
+    display: block;
+     width:220px;
+     height: 40px;
+     border-radius: 4px;
+}
