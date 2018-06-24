@@ -41,17 +41,24 @@
      height: 20px;
      width: 20px;
 }
-.s-x{
-     display: inline-block;
-}
 .s-nav-sign-up{
      height:30px;
      border-radius: 4px 0 0 4px ;
 }
-.s-nav-sign-up2{
-     height:30px;
+.s-nav-sign-up:hover{
+     background-color: #9AACFF;
+}
+.s-sign-up-p{
+     margin-top: 2px;
+     display: inline-block;
+}
+.s-sign-up-img{
+     margin-bottom: 2px;
 }
 .s-nav-sign-in{
      height:30px;
      border-radius: 0 4px 4px 0 ;
+}
+.s-nav-sign-in:hover{
+     background-color: white;
 }
