@@ -4,6 +4,9 @@
      border: 1px solid #EEE;
 }
 /* Content */
+.s-main-contaner{
+     width: 860px;
+}
 .s-lock{
   width:100px;
   height:100px;
@@ -14,4 +17,16 @@
      width:220px;
      height: 40px;
      border-radius: 4px;
+}
+.s-footer-div{
+  width:260px;
+}
+.s-checkbox{
+  width: 20px;
+  height:20px;
+}
+.s-butt-next{
+     width: 100px;
+     height: 40px;
+     border-radius: 4px
 }

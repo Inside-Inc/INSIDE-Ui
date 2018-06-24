@@ -123,6 +123,9 @@
 .shadow-s{
      box-shadow: 1px 1px 4px rgba(112, 112, 112, 0.3);
 }
+.p-fixed{
+  position: fixed;
+}
 /* view */
 .hidden{
 
