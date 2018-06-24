@@ -14,10 +14,11 @@ export class ClientSignUpContentComponent implements OnInit {
   }
   stepsSwitcher(){ // Switch btween the steps
      var stepsSlider = document.getElementById('stepsSlider');
-     var position = stepsSlider.getAttribute('rightPosition');
-     var positionInt = Number(position);
-     var addRight = positionInt + 880;
-     stepsSlider.style.right= addRight+'px';
-     stepsSlider.setAttribute('rightPosition', addRight);
+     // var position = stepsSlider.getAttribute('rightPosition');
+     // var positionInt = Number(position);
+     // var addRight = stepsCounter + 880;
+     this.stepsCounter += 880;
+     stepsSlider.style.right= this.stepsCounter+'px'; 
+     // stepsSlider.setAttribute('rightPosition', addRight);
  }
 }
