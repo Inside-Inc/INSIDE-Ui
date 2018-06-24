@@ -1,0 +1,63 @@
+/* Body Color */
+.s-body-color{
+  background-color: rgba(60, 93, 84, 0.1);
+}
+/* Header */
+.s-hr{
+     width:140px;
+     border: 1px solid #EEE;
+}
+/* global */
+/* step sections */
+/* step one */
+.s-step-sec{
+}
+.s-main-contaner{
+     width: 860px;
+     height: 440px;
+}
+/* header */
+.s-step-icon{
+     width:70px;
+     height:70px;
+     border-radius: 50%;
+}
+.s-step-num{
+     padding:20px 0;
+}
+/* column */
+.s-column{
+     width:260px;
+     height: 300px;
+     position: relative;
+}
+/* inputs */
+.s-sing-inputs{
+     width:220px;
+     height: 40px;
+     border-radius: 4px;
+}
+.s-num-input{
+  width:40px;
+  height: 40px;
+  border-radius: 4px;
+}
+.s-ph-num-input{
+  width:160px;
+  height: 40px;
+  border-radius: 4px;
+}
+/* buttons */
+.s-butt-send-code{
+  width: 120px;
+  height: 40px;
+  border-radius: 4px;
+}
+.s-butt-verify{
+     width: 100px;
+     height: 40px;
+     position: absolute;
+     bottom: 20px;
+     right:0;
+     border-radius: 4px
+}
