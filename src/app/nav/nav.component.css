@@ -17,7 +17,7 @@
 .s-holder-user-acc{
      display: inline-block;
      height: 30px;
-     width: 260px;
+     width: 220px;
      padding: 5px 0;
 }
 /* Buttons & icons */
@@ -43,6 +43,7 @@
 }
 .s-nav-sign-up{
      height:30px;
+     width:134px;
      border-radius: 4px 0 0 4px ;
 }
 .s-nav-sign-up:hover{
@@ -57,6 +58,7 @@
 }
 .s-nav-sign-in{
      height:30px;
+     width:86px;
      border-radius: 0 4px 4px 0 ;
 }
 .s-nav-sign-in:hover{
