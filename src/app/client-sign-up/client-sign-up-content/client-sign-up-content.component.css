@@ -9,8 +9,6 @@
      width: 2620px;
      transform: translate3d(0, 0, 0);
 }
-.s-step-sec{
-}
 .s-main-contaner{
      width: 860px;
      height: 440px;
@@ -23,6 +21,11 @@
 }
 .s-step-num{
      padding:20px 0;
+}
+.s-hr-steps{
+     width: 0px;
+     height: 2px;
+     margin-top:35px;
 }
 /* .s-hr{
   border: 1px solid #AFED99;

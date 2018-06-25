@@ -160,7 +160,7 @@
 }
 /* view */
 .hidden{
-
+     opacity: 0;
 }
 .hidden-test{
   width:0;
@@ -215,7 +215,7 @@
 /* fonts === END === */
 /* component --- START --- */
 .inside-butt:hover{
-
+     background-color: #9AACFF;
 }
 /* component === END === */
 /* Colors --- START --- */
