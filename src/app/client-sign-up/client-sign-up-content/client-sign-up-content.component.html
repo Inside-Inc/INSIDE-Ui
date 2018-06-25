@@ -1,4 +1,4 @@
-<section class='s-main-contaner margin-auto'>
+<section id='mainContaner' class='s-main-contaner margin-auto'>
      <header class='padding-b-20'> <!-- steps -->
                <div class='s-step-icon gray-bc center margin-b-20 float-l'>
                     <p class='arial titles-fonts-size white-c s-step-num'>1</p>
@@ -17,16 +17,16 @@
      <section id='contentContaner'><!--Conent contaner -->
           <section id='stepsSlider' class='tra-a-4' rightPosition=''>
                <section id='step1' class='float-l'> <!-- step one  User ID-->
-                    <div class='s-column float-l'><!-- calumn-A -->
-                         <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='First Name' type='text'>
-                         <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Last Name' type='text'>
-                         <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='E-mail' type='text'>
-                         <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Password' type='password'>
-                         <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Re-Password' type='password'>
+                    <div id='userIdCalA' class='s-column float-l'><!-- calumn-A -->
+                         <input id='first Name' class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='First Name' type='text'>
+                         <input  id='last Name' class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Last Name' type='text'>
+                         <input id='E-Mail' class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='E-mail' type='text'>
+                         <input id='password' class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Password' type='password'>
+                         <input id='re Password' class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Re-Password' type='password'>
                     </div>
-                    <div class='s-column float-l margin-r-40 margin-l-40'><!-- calumn-B -->
-                         <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Gender' type='text'>
-                         <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='DD/MM/YYYY' type='text'>
+                    <div id='userIdCalB' class='s-column float-l margin-r-40 margin-l-40'><!-- calumn-B -->
+                         <input id='gender' class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Gender' type='text'>
+                         <input id='date' class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='DD/MM/YYYY' type='text'>
                     </div>
                     <div class='s-column float-l'><!-- calumn-C -->
                          <button class='s-butt-next p-fonts-size outline-non border-non blue-bc white-c padding-r-20 padding-l-20 float-r shadow-s arial c-pointer inside-butt tra-a-2' (click)='stepsSwitcher()'>Next</button>

@@ -45,4 +45,40 @@ export class ClientSignUpContentComponent implements OnInit {
      stepsSlider.style.right= this.stepsCounter+'px';
 
  }
+  validationInputs(){
+     // var firstName = document.getElementById('firstName'),
+     //      lastName  = document.getElementById('lastName'),
+     //      eMail     = document.getElementById('eMail'),
+     //      password  = document.getElementById('password'),
+     //      rePassword     = document.getElementById('rePassword');
+     var mainContaner = document.getElementById('mainContaner'),
+          userIdCalA = document.getElementById('userIdCalA'),
+          userIdCalB = document.getElementById('userIdCalB');
+     function ifEmpty(){
+          for(var i=0; i<userIdCalA.children.length; i++){
+               if(userIdCalA.children[i].value ==''){
+                    return userIdCalA.children[i];
+               }
+          }
+          for(var x=0; x<userIdCalB.children.length; x++){
+               if(userIdCalB.children[x].value == ''){
+                    return userIdCalB.children[x].id;
+               }
+          }
+          return false;
+     }
+     ifEmpty();
+     function verify(){
+          var ifEmp = ifEmpty();
+          if(ifEmp === false){
+               stepsSwitcher();
+          }else{
+               // alert('sorry the input ' + ifEmp + ' is empty');
+               // mainContaner.style.backgroundColor = 'rgba(245, 102, 75, .1)'
+               ifEmp.classList.add('border-danger', 'tra-a-1');
+
+          }
+     }
+     verify();
+ }
 }

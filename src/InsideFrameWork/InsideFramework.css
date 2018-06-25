@@ -112,6 +112,9 @@
 .border-rad-4{
      border-radius: 4px;
 }
+.border-danger{
+     border-left: 4px solid #F5664B
+}
 .outline-non{
      outline: none;
 }
