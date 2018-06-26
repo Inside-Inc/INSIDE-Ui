@@ -3,14 +3,16 @@ import { Routes, RouterModule } from '@angular/router';
 // Components
 import { ClientSignInComponent } from './client-sign-in/client-sign-in.component';
 import { ClientSignUpComponent } from './client-sign-up/client-sign-up.component';
-
+import { ClientVerificationFormComponent } from './client-verification/client-verification-form/client-verification-form.component';
 const routes: Routes = [
   // {
   //   path: '',
   //   children: []
   // }
-  {path: 'client-sign-in', component: ClientSignInComponent },
-  {path: 'client-sign-up', component: ClientSignUpComponent}
+  {path: 'client-sign-in', component: ClientSignInComponent},
+  {path: 'client-sign-up', component: ClientSignUpComponent},
+  {path: 'client-verification-form', component: ClientVerificationFormComponent}
+
 ];
 
 @NgModule({
@@ -20,5 +22,6 @@ const routes: Routes = [
 export class AppRoutingModule { }
 export const routingComponents = [
      ClientSignInComponent,
-     ClientSignUpComponent
+     ClientSignUpComponent,
+     ClientVerificationFormComponent
 ];
