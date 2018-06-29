@@ -4,9 +4,6 @@
                     <p class='arial titles-fonts-size white-c s-step-num'>1</p>
                </div>
                <div id='stepLine1' class='s-hr-steps gray-bc float-l margin-r-20 margin-l-20 tra-a-2'></div>
-               <section id='errMessages' class='float-l hidden-test'> <!-- Error Messages-->
-                    <div id='errMessage' class='arial p-fonts-size float-l alert-err-message s-err-mess bOld hidden tra-a-4'></div>
-               </section>
                <div id='step2Icon' class='s-step-icon gray-bc center margin-b-20 float-l hidden tra-a-2'>
                     <p class='arial titles-fonts-size white-c s-step-num'>2</p>
                </div>
@@ -14,6 +11,9 @@
                <div id='step3Icon' class='s-step-icon gray-bc center margin-b-20 float-l hidden tra-a-2'>
                     <p class='arial titles-fonts-size white-c s-step-num'>3</p>
                </div>
+               <section id='errMessages' class='float-l hidden-test'> <!-- Error Messages-->
+                    <div id='errMessage' class='arial p-fonts-size float-l alert-err-message s-err-mess bOld hidden tra-a-4'></div>
+               </section>
           <p class='clear-fix'></p>
           <p id='headerTitle' class='arial titles-fonts-size bOld black-c'></p>
      </header>
@@ -21,7 +21,6 @@
           <section id='stepsSlider' class='tra-a-4' rightPosition=''>
                <section id='step1' class='float-l'> <!-- step one  User ID-->
                     <div id='userIdCalA' class='s-column float-l'><!-- calumn-A -->
-                         <!-- <input formControlName='firstName' id='firstName' class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='First Name' type='text' (click)='errMessSwitcher()'> -->
                          <input id='firstName' class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial tra-a-2' placeholder='First Name' type='text' name='First Name'>
                          <input id='lastName' class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial tra-a-2' placeholder='Last Name' type='text' name='Last Name'>
                          <input id='eMail' class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial tra-a-2' placeholder='E-mail' type='text' name='E-Mail Name'>
@@ -29,35 +28,35 @@
                          <input id='rePassword' class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial tra-a-2' placeholder='Re-Password' type='password' name='Re Password'>
                     </div>
                     <div id='userIdCalB' class='s-column float-l margin-r-40 margin-l-40'><!-- calumn-B -->
-                         <input id='gender' class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Gender' type='text' value=''>
-                         <input id='date' class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='DD/MM/YYYY' type='text' value=''>
+                         <input id='gender' class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial tra-a-2' placeholder='Gender' type='text' name='Gender'>
+                         <input id='date' class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial tra-a-2' placeholder='DD/MM/YYYY' type='text' name='Date'>
                     </div>
                     <div class='s-column float-l'><!-- calumn-C -->
-                         <button id='nextButt' class='s-butt-next p-fonts-size outline-non border-non blue-bc white-c padding-r-20 padding-l-20 float-r shadow-s arial c-pointer inside-butt tra-a-2'>Next</button>
+                         <button id='nextButtStep1' class='s-butt-next p-fonts-size outline-non border-non blue-bc white-c padding-r-20 padding-l-20 float-r shadow-s arial c-pointer inside-butt tra-a-2'>Next</button>
                          <!-- <button class='s-butt-next p-fonts-size outline-non border-non blue-bc white-c padding-r-20 padding-l-20 float-r shadow-s arial c-pointer inside-butt tra-a-2' (click)='stepsSwitcher()' [disabled]='!rForm.valid'>Next</button> -->
                     </div>
                     <p class='clear-fix'></p>
                </section>
-               <section id='step2' class=' float-l margin-l-20 margin-r-20 hidden-tests'> <!-- step two 'User Cntact' -->
-                         <div class='s-column float-l'><!-- calumn-A -->
-                        <input class='s-num-input center margin-r-20 border-non gray-bc outline-non placeholder-s p-fonts-size shadow-s margin-b-20' placeholder='02' type='text' >
-                        <input class='s-ph-num-input border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Phone Number' type='text' disabled>
-                        <button class='s-butt-add border-non green-bc white-c outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial'>Add Phone Number</button>
-                        <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Country' type='text' disabled>
-                        <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='City' type='text' disabled>
-                        <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='state' type='text' disabled>
+               <section id='step2' class=' float-l margin-l-20 margin-r-20'> <!-- step two 'User Contact' -->
+                    <div id='userContCalA' class='s-column float-l'><!-- calumn-A -->
+                        <input id='areaCode' class='s-num-input center margin-r-20 border-non gray-bc outline-non placeholder-s p-fonts-size shadow-s margin-b-20 tra-a-2' placeholder='02' type='text' name='Area Code' disabled>
+                        <input id='phoneNum' class='s-ph-num-input border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial tra-a-2' placeholder='Phone Number' type='text' name='Phone Number' disabled>
+                        <button id='addPhoneNum' class='s-butt-add border-non green-bc white-c outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' value='nun'>Add Phone Number</button>
+                        <input id='country' class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial tra-a-2' placeholder='Country' type='text' name='Country' disabled>
+                        <input id='city' class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial tra-a-2' placeholder='City' type='text' name='City' disabled>
+                        <input id='state' class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial tra-a-2' placeholder='State' type='text' name='State' disabled>
                     </div>
-                    <div class='s-column float-l margin-r-40 margin-l-40'><!-- calumn-B -->
-                         <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Street' type='text' disabled>
-                         <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Postal code' type='text' disabled>
-                         <button class='s-butt-add border-non green-bc white-c outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial'>Add Another Address</button>
+                    <div id='userContCalB' class='s-column float-l margin-r-40 margin-l-40'><!-- calumn-B -->
+                         <input id='street' class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial tra-a-2' placeholder='Street' type='text' name='Street' disabled>
+                         <input id='postalCode' class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial tra-a-2' placeholder='Postal code' type='text' name='Postal Code' disabled>
+                         <button id='addAddress' class='s-butt-add border-non green-bc white-c outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial tra-a-2' value='nun'>Add Another Address</button>
                     </div>
                     <div class='s-column float-l'><!-- calumn-C -->
-                         <button class='s-butt-next p-fonts-size outline-non border-non blue-bc white-c padding-r-20 padding-l-20 float-r shadow-s arial c-pointer inside-butt tra-a-2' (click)='stepsSwitcher()'>Next</button>
+                         <button id='nextButtStep2' class='s-butt-next p-fonts-size outline-non border-non blue-bc white-c padding-r-20 padding-l-20 float-r shadow-s arial c-pointer inside-butt tra-a-2'>Next</button>
                     </div>
                     <p class='clear-fix'></p>
                </section>
-               <section id='step3' class='hidden-test'>     <!-- step three 'User Payment' -->
+               <section id='step3' class=''>     <!-- step three 'User Payment' -->
                    <div class='s-column float-l'><!-- calumn-A -->
                         <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Credit Card' type='text' disabled>
                         <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Card Number' type='text' disabled>

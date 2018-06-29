@@ -22,10 +22,14 @@
 .s-step-num{
      padding:20px 0;
 }
+#errMessages{
+     position: relative;
+     right: 180px;
+}
 .errMessages{
      position: relative;
      overflow: hidden;
-     width: 500px;
+     width: 330px;
      height:65px;
 }
 .s-err-mess{
@@ -53,12 +57,14 @@
      border-radius: 4px;
 }
 .s-num-input{
+     box-sizing: border-box;
   width:40px;
   height: 40px;
   border-radius: 4px;
 }
 .s-ph-num-input{
-  width:160px;
+     box-sizing: border-box;
+  width:200px;
   height: 40px;
   border-radius: 4px;
 }
