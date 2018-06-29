@@ -33,7 +33,7 @@
 .s-search-button{
      height:30px;
      width:30px;
-     background-image: url("../../assets/Icon/search.png");
+     background-image: url('../../assets/Icon/search.png');
      background-position: center;
      background-repeat: no-repeat;
 }

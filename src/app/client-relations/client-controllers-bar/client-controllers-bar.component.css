@@ -1,0 +1,36 @@
+/* main bar */
+.s-controller-bar{
+  height:40px;
+  margin-left: 220px;
+}
+/* Holders*/
+.s-holder-one{
+     height: 30px;
+     width: 290px;
+     padding: 5px 0;
+     /* display: inline-block; */
+     background: yellow;
+}
+.s-holder-user-fun{
+     /* display: inline-block; */
+     height: 40px;
+     width: 470px;
+     background-color: green;
+   }
+/* holders ===END=== */
+/* global */
+.s-img-icon{
+  width: 20px;
+  height:20px;
+}
+/* search section*/
+.s-search-bar{
+     width: 260px;
+     height:30px;
+     border-radius: 4px 0 0 4px;
+}
+/* controller button */
+.s-con-button{
+     width: 110px;
+     height: 30px;
+}

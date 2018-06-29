@@ -1,0 +1,55 @@
+/* main */
+.s-container{
+  width:880px;
+  height:880px;
+}
+.s-column{
+  width:280px;
+  height:900px;
+}
+/* Object ===START==  */
+/* main Object */
+.s-object{
+  width:280px;
+  height:120px;
+  border-radius: 0px 20px 20px;
+  background: rgba(238,238,238,0.27);
+}
+/* image and client data wrapper */
+.s-wrapper{
+  width:240px;
+  height: 95px;
+}
+/* object content */
+/* client image */
+.s-client-img{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+/* paragraph font color */
+.s-p-color{
+  color:#707070;
+}
+/* buttons */
+.s-accept{
+  color:#1ED124;
+  background: rgba(170,246,144,0.6);
+  width:140px;
+  height:25px;
+  border-radius:0px 0px 0px 20px;
+}
+.s-accept:hover{
+  background: rgba(170,246,144,0.8);
+}
+.s-delete{
+  color:#F52E2E;
+  background: rgba(255,115,115,0.6);
+  width:140px;
+  height:25px;
+  border-radius:0px 0px 20px 0px;
+}
+.s-delete:hover{
+  background: rgba(255,115,115,0.8);
+}
+/* Object ===END=== */

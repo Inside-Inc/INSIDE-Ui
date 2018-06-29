@@ -1,0 +1,43 @@
+/* main */
+.s-side-menu{
+   width: 220px;
+   height: 800px;
+}
+/* container */
+/* menu icons */
+.s-menu-icons{
+  width: 20px;
+  height:20px;
+}
+/* search input */
+.s-search-bar{
+   width: 150px;
+   height:50px;
+  }
+/* menu items */
+/* wrappers ==START== */
+.s-search-wrapper{
+  width:190px;
+  height:50px;
+}
+.s-item-wrapper{
+  width:200px;
+  height: 50px;
+}
+.s-item-wrapper:hover{
+  background-color: rgba(127,150,255,0.5);
+  transition: .3s ease;
+}
+/* wrappers ===END=== */
+/* add list button */
+.s-butt-list{
+   width: 220px;
+   height: 40px;
+   background-image:url('../../../assets/Icon/pipe-plus.png');
+   background-repeat: no-repeat;
+   background-position: 5% 50%;
+}
+.s-butt-list:hover{
+    box-shadow:  1px 1px 5px  #ccc;
+    transition: .3s ease;
+}
