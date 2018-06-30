@@ -11,9 +11,6 @@
 .margin-l-5{
      margin-left: 5px;
 }
-.margin-t-15{
-     margin-top: 15px;
-}
 .margin-10{
      margin:10px;
 }
@@ -75,6 +72,12 @@
 
 /*margin === END ==  */
 /*padding --- START ---  */
+.padding-t-5{
+     padding-top: 5px;
+}
+.padding-b-5{
+     padding-bottom: 5px;
+}
 .padding-10{
   padding: 10px;
 }

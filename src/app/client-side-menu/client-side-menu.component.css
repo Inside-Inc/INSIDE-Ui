@@ -1,37 +1,48 @@
 /* main */
 .s-side-menu{
-   width: 220px;
-   height: 800px;
+   width: 240px;
+   height: 760px;
 }
 /* container */
-/* menu icons */
-.s-menu-icons{
-  width: 20px;
-  height:20px;
+.s-container{
+  width: 240px;
+  height: 40px;
 }
-/* search input */
-.s-search-bar{
-   width: 150px;
-   height:50px;
-  }
-/* menu items */
-/* wrappers ==START== */
+.s-item-container{
+  width: 240px;
+  height: 40px;
+}
+/* wrappers ===START=== */
+.s-relation-wrapper{
+  width: 140px;
+  height: 30px;
+}
 .s-search-wrapper{
   width:190px;
   height:50px;
 }
 .s-item-wrapper{
-  width:200px;
-  height: 50px;
+  width:190px;
+  height: 30px;
 }
-.s-item-wrapper:hover{
+.s-item-container:hover{
   background-color: rgba(127,150,255,0.5);
   transition: .3s ease;
 }
 /* wrappers ===END=== */
+/* search input */
+.s-search-bar{
+   width: 150px;
+   height:35px;
+  }
+/* menu icons */
+.s-menu-icons{
+  width: 20px;
+  height:20px;
+}
 /* add list button */
 .s-butt-list{
-   width: 220px;
+   width: 240px;
    height: 40px;
    background-image:url('../../assets/Icon/pipe-plus.png');
    background-repeat: no-repeat;
