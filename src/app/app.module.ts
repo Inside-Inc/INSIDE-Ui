@@ -12,9 +12,9 @@ import { ClientVerificationAcceptedComponent } from './client-verification/clien
 import { ClientAccountRestoreOptionsComponent } from './client-restore-account/client-account-restore-options/client-account-restore-options.component';
 import { ClientVerificationCodeComponent } from './client-restore-account/client-verification-code/client-verification-code.component';
 import { ClientControllersBarComponent } from './client-relations/client-controllers-bar/client-controllers-bar.component';
-import { ClientSideMenuComponent } from './client-relations/client-side-menu/client-side-menu.component';
-import { ClientFRequestComponent } from './client-relations/client-objects/client-f-request/client-f-request.component';
+import { ClientSideMenuComponent } from './client-side-menu/client-side-menu.component';
 import { ClientAllComponent } from './client-relations/client-objects/client-all/client-all.component';
+import { ClientRelationsComponent } from './client-relations/client-relations.component';
 
 @NgModule({
   declarations: [
@@ -28,8 +28,8 @@ import { ClientAllComponent } from './client-relations/client-objects/client-all
     ClientVerificationCodeComponent,
     ClientControllersBarComponent,
     ClientSideMenuComponent,
-    ClientFRequestComponent,
-    ClientAllComponent
+    ClientAllComponent,
+    ClientRelationsComponent
   ],
   imports: [
     BrowserModule,

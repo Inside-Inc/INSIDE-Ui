@@ -1,6 +1,6 @@
  export function clientSignUpExternal() {
 // Variables ---
-     var userIdCalA = document.getElementById('userIdCalA');
+     var userIdCalA = document.getElementById('userIdCalA'),
           userIdCalB = document.getElementById('userIdCalB'),
           userContCalA = document.getElementById('userContCalA'),
           userContCalB = document.getElementById('userContCalB'),
