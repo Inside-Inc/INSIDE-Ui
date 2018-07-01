@@ -1,33 +1,28 @@
 /* main bar */
 .s-controller-bar{
   height:40px;
-  margin-left: 220px;
+  margin-left: 240px;
 }
 /* Holders*/
 .s-holder-one{
-     height: 30px;
-     width: 290px;
-     padding: 5px 0;
-     /* display: inline-block; */
-     background: yellow;
+     height: 40px;
+     width: 320px;
 }
 .s-holder-user-fun{
-     /* display: inline-block; */
      height: 40px;
-     width: 470px;
-     background-color: green;
-   }
+     width: 430px;
+     background: yellow;
+}
 /* holders ===END=== */
 /* global */
 .s-img-icon{
-  width: 20px;
-  height:20px;
+  width: 30px;
+  height:30px;
 }
 /* search section*/
 .s-search-bar{
      width: 260px;
-     height:30px;
-     border-radius: 4px 0 0 4px;
+     height:40px;
 }
 /* controller button */
 .s-con-button{
