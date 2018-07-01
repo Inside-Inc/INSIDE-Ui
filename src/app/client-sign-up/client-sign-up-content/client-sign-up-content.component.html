@@ -1,9 +1,9 @@
 <section id='mainContaner' class='s-main-contaner margin-auto'>
      <header class='padding-b-20'> <!-- steps -->
-               <div class='s-step-icon gray-bc center margin-b-20 float-l'>
+               <div id='step1Icon' class='s-step-icon gray-bc center margin-b-20 float-l tra-a-2'>
                     <p class='arial titles-fonts-size white-c s-step-num'>1</p>
                </div>
-               <div id='stepLine1' class='s-hr-steps gray-bc float-l margin-r-20 margin-l-20 tra-a-2'></div>
+               <div id='stepLine1' class='s-hr-steps green-bc float-l margin-r-20 margin-l-20 tra-a-2'></div>
                <div id='step2Icon' class='s-step-icon gray-bc center margin-b-20 float-l hidden tra-a-2'>
                     <p class='arial titles-fonts-size white-c s-step-num'>2</p>
                </div>
@@ -23,7 +23,7 @@
                     <div id='userIdCalA' class='s-column float-l'><!-- calumn-A -->
                          <input id='firstName' class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial tra-a-2' placeholder='First Name' type='text' name='First Name'>
                          <input id='lastName' class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial tra-a-2' placeholder='Last Name' type='text' name='Last Name'>
-                         <input id='eMail' class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial tra-a-2' placeholder='E-mail' type='text' name='E-Mail'>
+                         <input id='eMail' class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial tra-a-2' placeholder='E-mail' type='email' name='E-Mail'>
                          <input id='password' class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial tra-a-2' placeholder='Password' type='password' name='Password'>
                          <input id='rePassword' class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial tra-a-2' placeholder='Re-Password' type='password' name='Re Password'>
                     </div>
@@ -52,12 +52,13 @@
                          <button id='addAddress' class='s-butt-add border-non green-bc white-c outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial tra-a-2' value='nun'>Add Another Address</button>
                     </div>
                     <div class='s-column float-l'><!-- calumn-C -->
-                         <button id='nextButtStep2' class='s-butt-next p-fonts-size outline-non border-non blue-bc white-c padding-r-20 padding-l-20 float-r shadow-s arial c-pointer inside-butt tra-a-2'>Next</button>
+                         <button id='backButtStep2' class='s-butt-back p-fonts-size outline-non border-non gray-bc blue-c padding-r-20 padding-l-20 float-l shadow-s arial c-pointer inside-white-butt tra-a-2'><</button>
+                         <button id='nextButtStep2' class='s-butt-next2 p-fonts-size outline-non border-non blue-bc white-c padding-r-20 padding-l-20 float-r shadow-s arial c-pointer inside-butt tra-a-2'>></button>
                     </div>
                     <p class='clear-fix'></p>
                </section>
                <section id='step3' class=''>     <!-- step three 'User Payment' -->
-                   <div class='s-column float-l'><!-- calumn-A -->
+                   <div id='userPaymentA' class='s-column float-l'><!-- calumn-A -->
                         <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Credit Card' type='text' disabled>
                         <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Card Number' type='text' disabled>
                         <input class='s-sing-inputs border-non gray-bc outline-non padding-l-20 padding-r-20 placeholder-s p-fonts-size shadow-s margin-b-20 arial' placeholder='Security code' type='text' disabled>
@@ -68,7 +69,8 @@
                    </div>
                    <div class='s-column float-l'><!-- calumn-C -->
                         <button routerLink='/client-verification-form' class='s-butt-skip p-fonts-size outline-non border-non transparent-bc blue-c padding-r-20 padding-l-20 margin-l-60 arial c-pointer'>Skip</button>
-                        <button routerLink='/client-verification-form' class='s-butt-next p-fonts-size outline-non border-non blue-bc white-c padding-r-20 padding-l-20 float-r shadow-s arial c-pointer inside-butt tra-a-2'>Next</button>
+                        <button id='BackButtStep3' class='s-butt-back p-fonts-size outline-non border-non white-bc blue-c padding-r-20 padding-l-20 float-r shadow-s arial c-pointer inside-white-butt tra-a-2'><</button>
+                        <button routerLink='/client-verification-form' class='s-butt-next2 p-fonts-size outline-non border-non blue-bc white-c padding-r-20 padding-l-20 float-r shadow-s arial c-pointer inside-butt tra-a-2'>></button>
                    </div>
                </section>
           </section>
