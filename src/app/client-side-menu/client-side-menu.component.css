@@ -17,10 +17,6 @@
   width: 140px;
   height: 30px;
 }
-.s-search-wrapper{
-  width:190px;
-  height:50px;
-}
 .s-item-wrapper{
   width:190px;
   height: 30px;
@@ -46,6 +42,13 @@
   height: 20px;
   border-radius: 50%;
   line-height: 2;
+  box-shadow: 1px 1px 5px  #ccc;
+}
+/* lable*/
+.s-lable{
+  width: 5px;
+  height:30px;
+  box-shadow: 1px 1px 5px  #ccc;
 }
 /* add list button */
 .s-butt-list{
