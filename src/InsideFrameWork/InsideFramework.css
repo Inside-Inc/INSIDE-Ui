@@ -264,12 +264,16 @@
 .inside-butt:hover{
      background-color: #9AACFF;
 }
+.inside-white-butt:hover{
+     background-color: #FFFFFF;
+}
 /* Alert messages */
 .alert-err-message{
      background-color: #fdeeec;
      padding: 10px;
      color:#F5664B;
      border-left: 8px solid #F5664B;
+     border-radius: 4px 0 0 4px;
 }
 /* component === END === */
 /* Colors --- START --- */

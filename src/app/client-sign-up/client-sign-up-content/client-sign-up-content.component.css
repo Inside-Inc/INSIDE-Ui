@@ -74,7 +74,23 @@
      position: absolute;
      bottom: 20px;
      right:0;
-     border-radius: 4px
+     border-radius: 4px;
+}
+.s-butt-next2{
+     width: 50px;
+     height: 40px;
+     position: absolute;
+     bottom: 20px;
+     right:0;
+     border-radius: 0 4px 4px 0;
+}
+.s-butt-back{
+     width: 50px;
+     height: 40px;
+     position: absolute;
+     bottom: 20px;
+     right:50px;
+     border-radius: 4px 0 0 4px;
 }
 .s-butt-skip{
      width: 100px;
