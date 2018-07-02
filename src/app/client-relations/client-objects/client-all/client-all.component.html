@@ -1,21 +1,67 @@
 <section  class='s-container gray-bc padding-20'><!--container-->
   <section class='s-column float-l margin-l-10 green-bc'><!--column A-->
-    <div class='white-bc s-object shadow margin-b-20'><!--white background object-->
-      <div class='s-more gray-bc border-non float-r'>
-        <img class='margin-t-10 margin-l-10' src='../../assets/Icon/more.png'><!--more icon-->
+    <div class='white-bc s-object shadow margin-b-20'><!--'All' object ==START==-->
+      <div class='s-dropdown'><!--more dropdown list-->
+        <button class='s-more gray-bc border-non outline-non float-r s-shadow'><!--more icon-->
+          <img class='margin-t-5' src='../../assets/Icon/more.png'>
+        </button>
+        <button class='shadow s-dropdown-content border-non outline-non gray-bc margin-t-40'><!--Get notifications-->
+          <img class='margin-t-5' src='../../assets/Icon/noti.png'>
+        </button>
+        <button class='shadow s-dropdown-content border-non outline-non gray-bc margin-t-80'><!--Add to list-->
+          <img class='margin-t-5' src='../../assets/Icon/add-list.png'>
+        </button>
+        <button class='shadow s-dropdown-content border-non outline-non s-last-b gray-bc margin-t-120'><!--Block-->
+          <img class='margin-t-5' src='../../assets/Icon/block.png'>
+        </button>
+     </div>
+      <div class='border-non s-circle blue-bc float-r margin-t-20 margin-r-10 s-shadow'></div><!--blue circle-->
+      <div class='border-non s-circle green-bc float-r margin-t-20 margin-r-5 s-shadow'></div><!--green circle-->
+      <div class='s-content-wrapper d-inline-block margin-auto  margin-t-20 margin-l-30'> <!--container (wrapper)-->
+        <div class='float-l s-client-img'><!--client image-->
+          <input type='image' class='s-client-img outline-non' src='../../assets/Icon/avatar1.png' alt='Avatar'>
+        </div>
+        <div class='float-l margin-t-20 margin-l-20'><!--client name & data-->
+          <a href='#' class='arial a-no-underline black-c p-fonts-size'>Mahmoud Tawba</a>
+          <p class='arial s-p-color small-fonts-size margin-b-10'>studied at 5azan</p>
+          <a href='#' class='arial a-no-underline blue-c small-fonts-size'>8 mutual friends</a>
+        </div>
+      </div><!-- wrapper ==END==-->
+      <div class='s-parent'><!--lable dropdown list -->
+      <div class='border-non s-list'><!--list background-->
+        <button class='border-non outline-non margin-t-5 s-list-content margin-l-5 s-green'></button><!--list content-->
+        <button class='border-non outline-non margin-t-5 s-list-content margin-l-5 s-yellow'></button>
+        <button class='border-non outline-non margin-t-5 s-list-content margin-l-5 s-orange'></button>
+        <button class='border-non outline-non margin-t-5 s-list-content margin-l-5 s-red'></button>
+        <button class='border-non outline-non margin-t-5 s-list-content margin-l-5 s-purple'></button>
+        <button class='border-non outline-non margin-t-5 s-list-content margin-l-5 s-blue'></button>
       </div>
-      <div class='gray-bc s-object shadow margin-b-20 s-object-opacity'><!--gray front object-->
-
-
-
+      <div class='s-lable arial white-c center p-fonts-size'>Son</div><!--lable-->
       </div>
+      <div class='red-bc arial white-c s-noti-circle center s-shadow margin-t-10 small-fonts-size'>1</div><!--notification circle-->
+      <button class='s-msg float-r transparent-bc border-non outline-non margin-r-20 margin-b-10'><!--message button-->
+        <img src='../../assets/Icon/b-msg.png'>
+      </button>
     </div>
-
-
-
-
-
-
+    <div class='white-bc s-object shadow margin-b-20'><!--'Friend request' object ==START==-->
+      <button class='s-more gray-bc border-non outline-non float-r s-shadow hidden-vis'><!--more icon-->
+        <img class='margin-t-5' src='../../assets/Icon/more.png'>
+      </button>
+      <div class='border-non s-circle blue-bc float-r margin-t-20 margin-r-10 s-shadow hidden-vis'></div><!--blue circle-->
+      <div class='border-non s-circle green-bc float-r margin-t-20 margin-r-5 s-shadow hidden-vis'></div><!--green circle-->
+      <div class='s-content-wrapper d-inline-block margin-t-20 margin-l-30'> <!--container (wrapper)-->
+        <div class='float-l s-client-img'><!--client image-->
+          <input type='image' class='s-client-img outline-non' src='../../assets/Icon/avatar1.png' alt='Avatar'>
+        </div>
+        <div class='float-l margin-t-20 margin-l-20'><!--client name & data-->
+          <a href='#' class='arial a-no-underline black-c p-fonts-size'>Mahmoud Tawba</a>
+          <p class='arial s-p-color small-fonts-size margin-b-10'>studied at 5azan</p>
+          <a href='#' class='arial a-no-underline blue-c small-fonts-size'>8 mutual friends</a>
+        </div>
+      </div><!-- wrapper ==END==-->
+      <button class='s-accept arial green-bc center float-l p-fonts-size border-non outline-non'>Accept</button><!--accept button-->
+      <button class='s-ignore arial red-bc red-c center float-l p-fonts-size border-non outline-non'>Ignore</button><!--Ignore button-->
+    </div>
   </section>
   <section class='s-column margin-r-20 margin-l-20 float-l red-bc'><!--column B-->
   </section>

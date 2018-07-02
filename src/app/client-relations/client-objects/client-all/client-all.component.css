@@ -17,16 +17,179 @@
   width:300px;
   height:200px;
   border-radius: 0px 20px 20px;
+  background: #FAFAFA;
+  position: relative;
 }
-/* gray opacity front object */
-.s-object-opacity{
-  opacity: 0.27;
+.s-object:hover{
+  box-shadow: 0px 1px 4px  rgba(0,0,0,0.16);
+  transition: .3s ease;
 }
+/* shadow */
+.s-shadow{
+  box-shadow: 1px 1px 5px  #ccc;
+}
+/* Object content */
+/* more dropdown list ===START=== */
 /* more icon */
 .s-more{
   width:40px;
   height:40px;
   border-radius: 0 20px 0 0;
-  box-shadow: 1px 1px 5px  #ccc;
   opacity: 0.6;
+}
+/* container */
+.s-dropdown{/* dont delete this class its container */}
+/* dropdown list content */
+.s-dropdown-content, .s-last-b{
+    position: absolute;
+    display: none;
+    border-radius:0px;
+    width:40px;
+    height:40px;
+    right: 0;
+}
+/* block button */
+.s-last-b{
+  border-radius:0px 0px 0px 20px;
+  position: absolute;
+  margin-top: 120px;
+  z-index: 2;
+}
+/* display dropdown content list when hover on container*/
+.s-dropdown:hover .s-dropdown-content{
+    display: block;
+    transition: .5s ease;
+    box-shadow: 1px 1px 10px  #ccc;
+}
+/* more dropdown ===END== */
+/* family and friends list circle lable*/
+.s-circle{
+  width: 10px;
+  height:10px;
+  border-radius: 50%;
+}
+/* client image */
+.s-client-img{
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+}
+/* image and client data wrapper */
+.s-content-wrapper{
+  width:225px;
+  height: 90px;
+}
+/* paragraph font color (client data studied at 5azan) */
+.s-p-color{
+  color:#707070;
+}
+/* lable dropdown list ===START===*/
+/* lable */
+.s-lable{
+   width:120px;
+   height:30px;
+   border-radius:0 20px 20px 20px;
+   background:#0079BF;
+   line-height: 2;
+   position: absolute;
+   bottom: 0;
+}
+/* container */
+.s-parent{/* dont delete this class its container */}
+/* list background */
+.s-list{
+  position:absolute;
+  border-radius:20px;
+  width:120px;
+  background:rgba(44,44,44,0.1);
+  height:25px;
+  display: none;
+  bottom: 0;
+  margin-left: 120px;
+}
+/* dropdown list content */
+.s-list-content{
+  border-radius:50%;
+  width:14px;
+  height:14px;
+}
+/* list content colors */
+.s-green{
+  background:#5AAC44;
+}
+.s-yellow{
+background:#F5DD29;
+}
+.s-orange{
+  background:#FFAB4A;
+}
+.s-red{
+  background:#EB5A46;
+}
+.s-purple{
+  background:#C377E0;
+}
+.s-blue{
+background:#0079BF;
+}
+/* display dropdown content list when hover on container*/
+.s-parent:hover .s-list{
+  display: block;
+  transition: .5s ease;
+  box-shadow: 1px 1px 10px  #ccc;
+}
+/* lable ===END=== */
+/* msg & notification wrapper */
+.s-msg-wrapper{
+  width: 40px;
+  height: 30px;
+}
+/* messages */
+.s-msg{
+width: 30px;
+height: 30px;
+position: absolute;
+right: 0;
+bottom: 0;
+}
+/* notifications */
+.s-noti-circle{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  line-height: 1.5;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  margin-right: 15px;
+}
+/* Friend Request object ==START== */
+/* Accept and Ignore buttons */
+.s-accept, .s-ignore{
+  width:150px;
+  height: 30px;
+}
+.s-accept{
+  border-radius:0 0 0 20px;
+  color:#1ED124;
+  background: rgba(170,246,144,0.6);
+  opacity:0.66;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.s-accept:hover{
+    background: rgba(170,246,144,0.4);
+}
+.s-ignore{
+  border-radius:0 0 20px 0;
+  color:#F52E2E;
+  background: rgba(255,115,115,0.6);
+  opacity:0.66;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.s-ignore:hover{
+  background: rgba(255,115,115,0.4);
 }

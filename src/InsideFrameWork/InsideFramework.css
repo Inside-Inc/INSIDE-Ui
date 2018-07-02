@@ -14,6 +14,9 @@
 .margin-l-5{
      margin-left: 5px;
 }
+.margin-l-5{
+     margin-left: 5px;
+}
 .margin-10{
      margin:10px;
 }
@@ -41,6 +44,12 @@
 .margin-l-20{
      margin-left: 20px;
 }
+.margin-t-30{
+     margin-top: 30px;
+}
+.margin-l-30{
+     margin-left: 30px;
+}
 .margin-40{
      margin:40px;
 }
@@ -64,6 +73,12 @@
 }
 .margin-l-60{
      margin-left: 60px;
+}
+.margin-t-70{
+     margin-top: 70px;
+}
+.margin-t-80{
+     margin-top: 80px;
 }
 .margin-r-100{
      margin-right: 100px;
@@ -207,6 +222,9 @@
   width:0;
   height:0;
   overflow: hidden;
+}
+.hidden-vis{
+  visibility: hidden;
 }
 /* mouse */
 .c-pointer{
